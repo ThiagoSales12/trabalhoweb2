@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import { useState, useContext } from 'react';
 import { Plus, Edit, Trash2, User } from 'lucide-react';
 import { AppContext } from '../context/AppContext';
 import type { Client } from '../types';

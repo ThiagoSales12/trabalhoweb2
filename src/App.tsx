@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { CheckSquare } from 'lucide-react';
 import { AppProvider } from './context/AppContext';
 import { ClientsView } from './views/ClientsView';

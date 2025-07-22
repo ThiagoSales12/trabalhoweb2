@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useContext } from 'react';
+import { useState, useMemo, useContext } from 'react';
 import { Plus, Edit, Trash2, ArrowLeft, MessageSquare, Briefcase, User, Calendar } from 'lucide-react';
 import { AppContext } from '../context/AppContext';
 import type { Client, Project, Task, Comment } from '../types';

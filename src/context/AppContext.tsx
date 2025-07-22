@@ -1,4 +1,4 @@
-import React, { useState, createContext } from 'react';
+import { useState, createContext } from 'react';
 import type { Client, Project, Task, Comment } from './../types';
 import { initialClients, initialComments, initialProjects, initialTasks } from '../data/mockData';
 

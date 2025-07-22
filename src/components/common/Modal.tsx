@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 export const Modal = ({ isOpen, onClose, title, children }: { isOpen: boolean, onClose: () => void, title: string, children: React.ReactNode }) => {
   if (!isOpen) return null;
